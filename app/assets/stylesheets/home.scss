@@ -1,0 +1,88 @@
+// Place all the styles related to the HomeController controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+margin: 0;
+background: white;
+padding: 0;
+}
+
+h1 {
+text-align: center;
+color: #f6546a;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+padding-top: 15px;
+margin-bottom: 0;
+background-color: white;
+}
+
+h2 {
+text-align: center;
+color: #f6546a;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+margin-top: 0;
+padding-bottom: 15px;
+margin-bottom: 0;
+background-color: white;
+}
+
+.bacon {
+height: 450px;
+width: 650px;
+border: 10px white solid;
+}
+
+.knotty {
+height: 470px;
+width: 100%;
+margin-top: 40px;
+}
+
+.slick-slide {
+width: 700px;
+}
+
+#t01 {
+width: 100%; 
+background-color: #81d8d0;
+margin-top: 0;
+padding-bottom: 5px;
+margin-bottom: 10;
+
+}
+
+th{
+width: 525px;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color: white;
+}
+
+a {
+color: white;
+font-style: none;
+text-decoration: none;
+}
+
+Footer {
+text-align: center;
+color: black;
+font-size: 10px;
+margin: 0;
+padding-top: 5px;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-style: none;
+text-decoration: none;
+width: 100%
+}
+
+.blacklink {
+color: black;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-style: none;
+text-decoration: none;
+}
+
+p {
+margin: 0;
+}
