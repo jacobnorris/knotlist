@@ -1,16 +1,47 @@
-// Place all the styles related to the HomeController controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// TODO: refactor into a well-styled CSS structure. Right now, this is just about everything.
 
-body {
-margin: 0;
-background: white;
-padding: 0;
+html, body {
+	// this is all part of weird footer trick
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#container {
+	min-height: 100%; // weird footer trick
+	position: relative; // weird footer trick
+}
+
+#header {
+	padding: 10px; // weird footer trick (??)
+}
+
+#body {
+	padding: 10px;
+	padding-bottom: 50px; // weird footer trick
+}
+
+#footer {
+	position: absolute; // weird footer trick
+	bottom: 0; // weird footer trick
+	width: 100%; // weird footer trick
+	background-color: #B5E36D;
+	text-align: center;
+
+	p {
+		padding: 10px;
+		font-size: 14px;
+		color: #787878;
+	}
+
+	a {
+		color: #787878;
+	}
 }
 
 h1 {
 text-align: center;
-color: #f6546a;
+color: #E01A22;
 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 padding-top: 15px;
 margin-bottom: 0;
@@ -19,7 +50,7 @@ background-color: white;
 
 h2 {
 text-align: center;
-color: #f6546a;
+color: #E35643;
 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 margin-top: 0;
 padding-bottom: 15px;
@@ -27,62 +58,66 @@ margin-bottom: 0;
 background-color: white;
 }
 
-.bacon {
-height: 450px;
-width: 650px;
-border: 10px white solid;
-}
-
-.knotty {
-height: 470px;
-width: 100%;
-margin-top: 40px;
-}
-
-.slick-slide {
-width: 700px;
-}
-
-#t01 {
-width: 100%; 
-background-color: #81d8d0;
-margin-top: 0;
-padding-bottom: 5px;
-margin-bottom: 10;
-
+a {
+	font-style: none;
+	text-decoration: none;
 }
 
 th{
-width: 525px;
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-color: white;
+	width: 525px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: white;
 }
 
-a {
-color: white;
-font-style: none;
-text-decoration: none;
-}
-
-Footer {
-text-align: center;
-color: black;
-font-size: 10px;
-margin: 0;
-padding-top: 5px;
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-font-style: none;
-text-decoration: none;
-width: 100%
-}
-
-.blacklink {
-color: black;
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-font-style: none;
-text-decoration: none;
+footer {
+	text-align: center;
+	color: black;
+	font-size: 10px;
+	margin: 0;
+	padding-top: 5px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style: none;
+	text-decoration: none;
+	width: 100%
 }
 
 p {
-margin: 0;
+	margin: 0;
+}
+
+.circle {
+	width: 19%;
+	height: auto;
+}
+
+.bacon {
+	height: 450px;
+	width: 650px;
+	border: 10px white solid;
+}
+
+.knotty {
+	height: 470px;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.slick-slide {
+	width: 700px;
+}
+
+#header-table {
+	width: 100%; 
+	background-color: #0CBEEA;
+	margin-top: 0;
+	padding-bottom: 5px;
+	margin-bottom: 10;
+
+	a {
+		color: white;	
+	}
+}
+
+#circle-list {
+	padding: 10px;
 }

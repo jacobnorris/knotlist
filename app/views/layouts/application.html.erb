@@ -7,8 +7,34 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id="container">
+<!-- Header -->
+<div id="header">
+	<h1> Jacob's and Megan's Knot List </h1> 
+	<h2> A Loving Adventure Preparing For Forever </h2>
 
-<%= yield %>
+	<table id="header-table">
+  		<tr>
+    		<th align="right"><a href="https://www.facebook.com/">Wedding Site In Progress</a></th>
+    		<th align="center"><a href="https://www.google.com/?gws_rd=ssl">Knot List List</a></th> 
+    		<th align="left"><a href="http://www.bing.com/?pc=U159&ocid=U159DHP&dt=062313">About Jegan And Macob</a></th>
+  		</tr>
+	</table>
+</div>
 
+<div id="body">
+
+	<%= yield %>
+
+</div>
+
+<!--Footer-->
+<div id="footer">
+  <p>Created by: Jacob and Megan <br/> 
+  Contact information: <a class=blacklink href="mailto:thenorriscravenswedding@outlook.com">
+  thenorriscravenswedding@outlook.com</a></p>
+</div>
+
+</div>
 </body>
 </html>
