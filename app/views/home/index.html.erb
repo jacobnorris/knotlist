@@ -2,7 +2,7 @@
 <div id="circle-list" align="center"> 
 
 <% (1..50).each do |n| %>
-  <%= link_to image_tag('circles/C' + n.to_s + '.jpg', :class => "circle"), circles_path %>
+  <%= link_to image_tag('circles/C' + n.to_s + '.jpg', :class => "circle"), circles_path(circle_number: n) %>
 <% end %>
 
 </div>

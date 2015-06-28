@@ -1,3 +1,7 @@
-<div>
-	<h1>More information coming soon!</h1>
+<div class="knot-item-page">
+	<%= image_tag 'knot_item_pages/' + get_image(@circle_number) %>
+	
+	<h1 id="header-text"><%= get_header_text(@circle_number) %></h1>
+
+	<h1 id="body-headline-text"><%= get_body_headline_text(@circle_number) %></h1>
 </div>
