@@ -1,0 +1,30 @@
+// Place all the styles related to the About controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.left {
+	padding: 0 5px 0 10px;
+
+	p {
+		text-align: justify;
+	}
+}
+
+.right {
+	padding: 0 10px 0 5px;
+
+	p {
+		text-align: justify;
+	}
+}
+
+.center {
+	padding-top: 25px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+
+	p {
+		text-align: justify;
+	}
+}
